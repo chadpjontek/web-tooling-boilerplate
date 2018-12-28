@@ -43,7 +43,9 @@
     "webpack-merge": "^4.1.3"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
   },
   "keywords": [
     "webpack",
